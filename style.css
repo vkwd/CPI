@@ -51,7 +51,7 @@ body {
          
          input#index1,
          #index2,
-         #index3 {
+         #index3,#bp1{
              /* margin: 10px; */
              width: 70px;
              font-size: large;
@@ -62,12 +62,12 @@ body {
              /* margin-left: 10px; */
          }
          
-         #bp1 {
+         /*#bp1 {
              width: 70px;
              font-size: large;
              margin: .3rem;
              background-color: rgb(157, 233, 167);
-         }
+         }*/
          
          #btn,
          #btnm {
@@ -105,7 +105,7 @@ body {
          #rbiemp,
          #psb,
          #psbe {
-             margin-left: 110px;
+             margin-left: 111px;
          }
          
          div.mve {
