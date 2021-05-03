@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>indxno5</title>
     <link href="style.css" rel="stylesheet" type="text/css">
 </head>
@@ -17,12 +17,12 @@
                 <div class="item1">
                     <h5>Calculator to view quarterly (+)(-) DA / DR slabs, payable to Bank Employees / Pensioners <br>Consumer Price Index(CPI)-RBI 2012@4440; <br>CPI Other Bank Employees-2017@6352.</h5>
                     <input type="radio" id="rbi" name="grpBank" value="RBIretiree" disabled>
-                    <label for="rbi">RBI Pensioner</label><br>
-                    <input type="radio" id="psb" name="grpBank" value="OtherBankretiree" disabled><label for="psb">Other Bank Pensioner</label><br>
+                    <label for="rbi">RBI Pensioner</label>
+                    <input type="radio" id="psb" name="grpBank" value="OtherBankretiree" disabled><label for="psb">Other Bank Pensioner</label>
+                    <p>
                     <input type="radio" id="rbiemp" name="grpBank" value="RBIemployee" checked>
-                    <label for="rbiemp">RBI Employee</label><br>
-
-                    <input type="radio" id="psbe" name="grpBank" value="OtherBankemployee"><label for="psbe">Other Bank Employee</label><br>
+                        <label for="rbiemp">RBI Employee</label></p>
+                    <input type="radio" id="psbe" name="grpBank" value="OtherBankemployee"><label for="psbe">Other Bank Employee</label>
 
                     <label class="indx" for="index1">CPI-(base2016) Jan21</label>
                     <input id="index1" step="0.01" min="117" max="120" type="number" value="118.20" required readonly title="values are readonly">
