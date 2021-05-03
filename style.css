@@ -8,18 +8,29 @@ body {
     margin: 0;
 }
          
-         .container {
+       /*  .container {
              background-color: rgb(248, 242, 237);
              width: 700px;
              display: grid;
              grid-template-columns: 50% auto;
-             /* margin: 0, auto; */
              grid-template-rows: 1fr;
              padding: 170px;
              grid-gap: 5px;
              margin-left: 200px;
              text-align: center;
-         }
+         }*/
+      .container {
+         background-color: whitesmoke;
+        width: 768px;
+        display: grid;
+        grid-template-columns: 50% auto;
+        padding: 170px;
+        grid-gap: 5px;
+        margin-left: 150px;
+        text-align: center;
+        min-width: 300px;
+        min-height: 350px;
+        }
          
          legend {
              background-color: #000;
