@@ -28,7 +28,7 @@ body {
         grid-gap: 5px;
         margin-left: 150px;
         text-align: center;
-        min-width: 300px;
+        min-width: 320px;
         min-height: 350px;
         }
          
@@ -111,7 +111,7 @@ body {
          #rbiemp,
          #psb,
          #psbe {
-             margin-left: 111px;
+             margin-left: 110px;
          }
          
          div.mve {
