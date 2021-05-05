@@ -1,134 +1,147 @@
-         body {
-             margin: 0 auto;
-         }
-         
-         .container {
-             background-color: rgb(248, 242, 237);
-             width: 700px;
-             display: grid;
-             grid-template-columns: 50% auto;
-             /* margin: 0, auto; */
-             grid-template-rows: 1fr;
-             padding: 170px;
-             grid-gap: 5px;
-             margin-left: 200px;
-             text-align: center;
-         }
-         
-         legend {
-             background-color: #000;
-             color: #fff;
-             padding: 3px 6px;
-         }
-         
-         .item1 {
-             background-color: cornflowerblue;
-             padding: 10px;
-             text-align: center;
-         }
-         
-         .item2 {
-             background-color: rgb(100, 237, 162);
-             padding: 10px;
-         }
-         
-         input#index1,
-         #index2,
-         #index3 {
-             /* margin: 10px; */
-             width: 70px;
-             font-size: large;
-             color: cornsilk;
-             margin: .3rem;
-             background-color: rgb(223, 56, 56);
-             text-justify: center;
-             /* margin-left: 10px; */
-         }
-         
-         #bp1 {
-             width: 70px;
-             font-size: large;
-             margin: .3rem;
-             background-color: rgb(157, 233, 167);
-         }
-         
-         #btn,
-         #btnm {
-             padding: 0.7em 1.4em;
-             margin: 0 0.3em 0.3em 0;
-             border-radius: 0.15em;
-             box-sizing: border-box;
-             text-decoration: none;
-             font-family: 'Roboto', sans-serif;
-             text-transform: uppercase;
-             font-weight: 400;
-             color: #FFFFFF;
-             background-color: #343d55;
-             box-shadow: inset 0 -0.6em 0 -0.35em rgba(0, 0, 0, 0.17);
-             text-align: center;
-             align-content: center;
-             /* position: relative; */
-         }
-         
-         button:hover {
-             filter: brightness(150%);
-             background: rgb(22, 22, 22);
-         }
-         
-         label {
-             font-size: 16px;
-             width: 165px;
-             display: inline-block;
-             text-align: left;
-         }
-         
-         label.indx {
-             text-align: right;
-         }
-         
-         input#rbiemp label {
-             text-align: left;
-         }
-         
-         input#rbi,
-         #rbiemp,
-         #psb,
-         #psbe {
-             margin-left: 111px;
-         }
-         
-         div.mve {
-             margin: 8px;
-             padding: 8px;
-             font-size: 1em;
-             font-weight: bold;
-             display: inline-block
-         }
-         
-         span#second,
-         #fourth {
-             color: rgb(255, 51, 0);
-             font-size: medium;
-         }
-         
-         span#fifth {
-             text-decoration-line: underline;
-         }
-         
-         h3 {
-             text-align: center;
-         }
-         
-         span.message-container {
-             border: 2px solid white;
-             font: 1em sans-serif;
-             color: red;
-         }
-         
-         input:valid {
-             border: 1px solid rgb(8, 228, 19);
-         }
-         
-         input:invalid {
-             border: 1px solid red;
-         }
+         @import url('https://fonts.googleapis.com/css?family=Sen&display=swap');
+ html {
+     box-sizing: border-box;
+ }
+ 
+ @media only screen and ( min-width: 400px) {
+     body {
+         /* width: 1100px; */
+         min-height: 70vh;
+         margin: 0;
+         letter-spacing: 2px;
+         display: flex;
+         font-family: Sen, sans-serif;
+         background-color: cadetblue;
+         align-items: center;
+         justify-content: center;
+     }
+ }
+ 
+ .container {
+     background-color: rgb(241, 234, 228);
+     width: 768px;
+     display: grid;
+     grid-template-columns: 50% auto;
+     border-radius: 10px;
+     box-shadow: 0 5px 30px 10px rgba(0, 0, 0, 0.4);
+     grid-gap: 15px;
+     min-width: 320px;
+ }
+ 
+ .item1 {
+     background-color: cornflowerblue;
+     padding: 20px;
+ }
+ 
+ .item2 {
+     background-color: rgb(100, 237, 162);
+     padding: 20px;
+ }
+ 
+ fieldset#grpBank {
+     text-align: left;
+     margin-left: 35px;
+     font-size: medium;
+     font-weight: bold;
+ }
+ 
+ legend {
+     background-color: #886969;
+     color: #fff;
+     padding: 3px 6px;
+     text-align: center;
+ }
+ 
+ p {
+     text-align: center;
+     font-weight: bold;
+     margin-left: 35px;
+     font-size: large;
+ }
+ 
+ input#index1,
+ #index2,
+ #index3 {
+     width: 70px;
+     font-size: large;
+     color: cornsilk;
+     /* margin: 1rem; */
+     background-color: rgb(223, 56, 56);
+     text-justify: center;
+     text-align: center;
+ }
+ 
+ label.indx {
+     text-align: right;
+     margin: 5px;
+ }
+ 
+ input#bp1 {
+     width: 70px;
+     font-size: large;
+     margin: .3rem;
+     background-color: rgb(157, 233, 167);
+     text-justify: center;
+     text-align: center;
+ }
+ 
+ label {
+     font-size: 16px;
+     width: 145px;
+     display: inline-block;
+     text-align: right;
+     font-weight: bold;
+ }
+ 
+ #btn,
+ #btnm {
+     padding: 0.7em 1.4em;
+     margin: 0 0.3em 0.3em 0;
+     border-radius: 0.15em;
+     box-sizing: border-box;
+     text-decoration: none;
+     font-family: 'Roboto', sans-serif;
+     text-transform: uppercase;
+     font-weight: 400;
+     color: #FFFFFF;
+     background-color: #343d55;
+     box-shadow: inset 0 -0.6em 0 -0.35em rgba(0, 0, 0, 0.17);
+     text-align: center;
+     align-content: center;
+ }
+ 
+ div.mve {
+     margin: 8px;
+     padding: 8px;
+     font-size: 1em;
+     font-weight: bold;
+     display: inline-block
+ }
+ 
+ span#second,
+ #fourth {
+     color: rgb(255, 51, 0);
+     font-size: medium;
+ }
+ 
+ span#fifth {
+     text-decoration-line: underline;
+ }
+ 
+ h3 {
+     text-align: center;
+ }
+ 
+ span.message-container {
+     border: 2px solid white;
+     font: 1em sans-serif;
+     color: red;
+ }
+ 
+ input:valid {
+     border: 1px solid rgb(8, 228, 19);
+ }
+ 
+ input:invalid {
+     border: 1px solid red;
+ }
