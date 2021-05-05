@@ -3,8 +3,12 @@
 
 <head>
     <meta charset="utf-8">
+<<<<<<< HEAD
 
 
+=======
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+>>>>>>> c873d7e7dd9bb3d2591da8709230ad15192b1e18
     <title>indxno5</title>
     <link href="style11.css" rel="stylesheet" type="text/css">
 
@@ -19,6 +23,7 @@
                 <legend>
                     Calculator to view quarterly (+)(-) DA / DR slabs, payable to Bank Employees / Pensioners</legend>
                 <div class="item1">
+<<<<<<< HEAD
                     <h5>Consumer Price Index(CPI)-RBI 2012@4440;<br>CPI Other Bank Employees-2017@6352.</h5>
                     <fieldset id="grpBank">
                         <legend>Select-RBI Employee Or Other Bank Employee:</legend>
@@ -32,6 +37,19 @@
                     </fieldset>
                     <p> AICPIN-(base2016)</p>
                     <label class="indx" for="index1"> Jan21</label>
+=======
+                    <h5>Calculator to view quarterly (+)(-) DA / DR slabs, payable to Bank Employees / Pensioners <br>Consumer Price Index(CPI)-RBI 2012@4440; <br>CPI Other Bank Employees-2017@6352.</h5>
+                    <input type="radio" id="rbi" name="grpBank" value="RBIretiree" disabled>
+                        <label for="rbi">RBI Pensioner</label>
+                    <input type="radio" id="psb" name="grpBank" value="OtherBankretiree" disabled><label for="psb">Other Bank Pensioner</label><br>
+                    
+                    <input type="radio" id="rbiemp" name="grpBank" value="RBIemployee" checked>
+                        <label for="rbiemp">RBI Employee</label><br>
+                    <input type="radio" id="psbe" name="grpBank" value="OtherBankemployee">
+                    <label for="psbe">Other Bank Employee</label><br>
+
+                    <label class="indx" for="index1">CPI-(base2016) Jan21</label>
+>>>>>>> c873d7e7dd9bb3d2591da8709230ad15192b1e18
                     <input id="index1" step="0.01" min="117" max="120" type="number" value="118.20" required readonly title="values are readonly">
                     <br>
                     <label class="indx" for="index2"> Feb21</label>
